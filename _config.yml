@@ -33,7 +33,7 @@ url: "https://joeyagreco.github.io" # the base hostname & protocol for your site
 # baseurl: /REPOSITORY-NAME/      # place folder name if the site is served in a subfolder
 
 # Build settings
-theme: minima
+# theme: minima
 plugins:
   - jekyll-feed
 
