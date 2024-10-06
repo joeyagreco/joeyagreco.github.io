@@ -1,5 +1,3 @@
----
-permalink: /foo/
----
-# Foo Page
-Content for the Foo page.
+layout: page
+title: "PAGE-TITLE"
+permalink: /URL-PATH
