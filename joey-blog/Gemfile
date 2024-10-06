@@ -9,7 +9,7 @@ source "https://rubygems.org"
 # Happy Jekylling!
 # https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll
 # gem "jekyll", "~> 4.3.4"
-gem "github-pages", "~> GITHUB-PAGES-VERSION", group: :jekyll_plugins
+gem "github-pages", "~> 232", group: :jekyll_plugins
 
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
