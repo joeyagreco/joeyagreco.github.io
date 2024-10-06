@@ -2,5 +2,8 @@
 layout: default
 ---
 <div>
+  <h1>{{page.title}}</h1>
+  <!-- https://jekyll.one/pages/public/tools/toolbox/jekyll/date_time_formats/ -->
+  <h3>{{ page.date | date: '%B %d, %Y' }}</h3>
   {{content}}
 </div>
