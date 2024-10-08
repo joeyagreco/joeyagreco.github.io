@@ -7,7 +7,7 @@ I’ve been playing chess on Lichess for the past 2 years to improve my chess sk
 
 However, over the past few months that growth has become stagnant, and I’ve been stuck just below the rating of 1900 elo.
 
-![Highest rating of 1895](/img/posts/2023-11-02/highest_elo.png)
+![Highest rating of 1895](/assets/img/posts/2023-11-02/highest_elo.png)
 
 I knew that studying my chess openings would be the only way to cross this threshold, but that seemed like a lot of manual work. Luckily, I know a bit of Python.
 
@@ -15,7 +15,7 @@ I started by creating a [GitHub repository](https://github.com/joeyagreco/daily-
 
 Using [Postman](https://www.postman.com/){:target="_blank"}, I sent a few requests to the Lichess API to see what filters I would need and how they format their responses.
 
-![Postman request and response](/img/posts/2023-11-02/postman.png)
+![Postman request and response](/assets/img/posts/2023-11-02/postman.png)
 
 I knew the following:
 
@@ -79,22 +79,22 @@ I won’t walk you through all of the code (you can take a look at it here), but
 
 When run, the code ends up sending messages that look like this…
 
-![Discord message 1](/img/posts/2023-11-02/discord_message_1.png)
+![Discord message 1](/assets/img/posts/2023-11-02/discord_message_1.png)
 
-![Discord message 2](/img/posts/2023-11-02/discord_message_2.png)
+![Discord message 2](/assets/img/posts/2023-11-02/discord_message_2.png)
 
-![Discord message 3](/img/posts/2023-11-02/discord_message_3.png)
+![Discord message 3](/assets/img/posts/2023-11-02/discord_message_3.png)
 
-![Discord message 4](/img/posts/2023-11-02/discord_message_4.png)
+![Discord message 4](/assets/img/posts/2023-11-02/discord_message_4.png)
 
 …to a private Discord server I’m in.
 
 Now every morning when I receive these messages, I can click the links to the games whose openings I struggle with the most, and study the positions with Stockfish right on Lichess’ website!
 
-![Lichess](/img/posts/2023-11-02/lichess.png)
+![Lichess](/assets/img/posts/2023-11-02/lichess.png)
 
 The last step was to build this into a [Docker container](https://www.docker.com/resources/what-container/){:target="_blank"} so I could run it on my [Unraid](https://unraid.net/){:target="_blank"} server and not have to worry about it constantly running on my personal computer.
 
-![Unraid](/img/posts/2023-11-02/unraid.png)
+![Unraid](/assets/img/posts/2023-11-02/unraid.png)
 
 And that’s it! 1900 here I come 🚀
