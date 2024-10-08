@@ -79,7 +79,7 @@ I won’t walk you through all of the code (you can take a look at it here), but
 
 When run, the code ends up sending messages that look like this…
 
-![Discord message 1](/img/posts/2023-11-02/daily_chess_update.png)
+![Discord message 1](/img/posts/2023-11-02/discord_message_1.png)
 
 ![Discord message 2](/img/posts/2023-11-02/discord_message_2.png)
 
