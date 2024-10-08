@@ -11,9 +11,9 @@ However, over the past few months that growth has become stagnant, and I’ve be
 
 I knew that studying my chess openings would be the only way to cross this threshold, but that seemed like a lot of manual work. Luckily, I know a bit of Python.
 
-I started by creating a [GitHub repository](https://github.com/joeyagreco/daily-chess) to store my code. I then looked at Lichess’ [API documentation](https://lichess.org/api) and found that they have endpoints that allow users to retrieve games by username... just what I needed.
+I started by creating a [GitHub repository](https://github.com/joeyagreco/daily-chess){:target="_blank"} to store my code. I then looked at Lichess’ [API documentation](https://lichess.org/api){:target="_blank"} and found that they have endpoints that allow users to retrieve games by username... just what I needed.
 
-Using [Postman](https://www.postman.com/), I sent a few requests to the Lichess API to see what filters I would need and how they format their responses.
+Using [Postman](https://www.postman.com/){:target="_blank"}, I sent a few requests to the Lichess API to see what filters I would need and how they format their responses.
 
 ![Postman request and response](/img/posts/2023-11-02/postman.png)
 
@@ -59,7 +59,7 @@ I won’t walk you through all of the code (you can take a look at it here), but
     openings_and_net_elo = dict(openings_and_net_elo)
     ```
 
-3. Send the results every morning to a private Discord server via a [webhook](https://support.discord.com/hc/en-us/articles/228383668-Intro-to-Webhooks)
+3. Send the results every morning to a private Discord server via a [webhook](https://support.discord.com/hc/en-us/articles/228383668-Intro-to-Webhooks){:target="_blank"}
 
 
     ```py
@@ -93,7 +93,7 @@ Now every morning when I receive these messages, I can click the links to the ga
 
 ![Lichess](/img/posts/2023-11-02/lichess.png)
 
-The last step was to build this into a [Docker container](https://www.docker.com/resources/what-container/) so I could run it on my [Unraid](https://unraid.net/) server and not have to worry about it constantly running on my personal computer.
+The last step was to build this into a [Docker container](https://www.docker.com/resources/what-container/){:target="_blank"} so I could run it on my [Unraid](https://unraid.net/){:target="_blank"} server and not have to worry about it constantly running on my personal computer.
 
 ![Unraid](/img/posts/2023-11-02/unraid.png)
 
